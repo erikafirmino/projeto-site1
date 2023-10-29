@@ -1,6 +1,35 @@
 @charset "UTF-8";
 
 @media(max-width:768px){
+
+    #burguer{
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+    #burguer:hover {
+        background-color: #D21617;
+        color: #fff;
+    }
+    header{
+        display: grid;
+    }
+    nav{
+        grid-area: nav;
+        width: 100%;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    a{
+        padding: 10px 30px;
+    }
+
+
     #banner{
         background-position: 40%;
         
@@ -11,11 +40,13 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
     }
     #content{
         width: 95%;
         display: flex;
         flex-direction: column;
+        align-items: center;
 
     }
     .trailer{
@@ -24,6 +55,7 @@
     #sinopse{
         width: 95%;
         display: flex;
+        margin: 10px 20px;
         flex-direction: column;
         justify-content: space-between;
         
@@ -38,7 +70,7 @@
         margin-top: 30px;
     }
     .cards-content{
-        margin-top: 200px;
+        margin-top: 50px;
         grid-template-columns: 1fr;
     }
     

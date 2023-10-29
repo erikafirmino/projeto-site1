@@ -31,6 +31,10 @@ li{
 li:hover{
     color: #D21617;
 }
+#burguer{
+    display: none;
+}
+
 #logo{
     width: 150px;
     height: auto;
