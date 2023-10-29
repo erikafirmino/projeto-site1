@@ -128,8 +128,24 @@ li:hover{
     background-image: url('./midias/batmam.jpg');
 }
 .banner-2{
-    background-image: url('./midias/mulhegato.jpg');
+    background-image: url('./midias/mulhegato2.jpg');
 }
 .banner-3{
     background-image: url('./midias/gordon.jpg');
 }
+
+footer{
+    height: 150px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+span{
+    padding: 5px;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 12px;
+}
+
